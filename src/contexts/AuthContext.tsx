@@ -27,8 +27,8 @@ export function AuthProvider({ children }: { children: React.ReactNode }) {
     }
   }, []);
 
-  const login = async (email: string, password: string) => {
-    // In a real app, validate credentials with your backend
+  // const login = async (email: string, password: string) => {
+    const login = async (email: string) => {
     const user = { id: "1", name: "Admin", email, role: "admin" as const };
     localStorage.setItem("user", JSON.stringify(user));
     setUser(user);
