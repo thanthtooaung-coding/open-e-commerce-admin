@@ -139,7 +139,7 @@ export function OwnersManagementPage() {
                           <FormControl>
                             <div className="relative">
                               <User className="absolute left-3 top-3 h-4 w-4 text-gray-400" />
-                              <Input placeholder="oec1" className="pl-10" {...field} />
+                              <Input placeholder="oecom1" className="pl-10" {...field} />
                             </div>
                           </FormControl>
                           <FormDescription>Must be between 5 and 50 characters.</FormDescription>
